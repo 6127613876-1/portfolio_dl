@@ -15,7 +15,7 @@ body {
 }
 
 h1,h2 {
-  @apply bg-gradient-to-r from-pink-500 to-red-400 bg-clip-text text-transparent text-center text-pink-500;
+  @apply bg-gradient-to-r from-pink-500 to-red-400 bg-clip-text text-center text-pink-500;
 }
 
 /* Border Customization */

@@ -8,6 +8,7 @@ const ExperienceSection = () => {
       id="experience"
       className="py-20 bg-gradient-to-b from-pink-50 via-rose-100 to-pink-50"
     >
+      <br/>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -32,7 +33,7 @@ const ExperienceSection = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
-              className="bg-white/80 backdrop-blur-sm ring-1 cursor-pointer ring-gray-200 shadow-xl rounded-2xl p-8 transition hover:scale-[1.01]"
+              className="bg-white/50 backdrop-blur-sm ring-1 cursor-pointer ring-gray-200 shadow-xl rounded-2xl p-8 transition hover:scale-[1.01]"
             >
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-4">
                 <div>

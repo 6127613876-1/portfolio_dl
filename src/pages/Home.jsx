@@ -6,7 +6,7 @@ import ExperienceSection from '../components/ExperienceSection';
 import ProjectsSection from '../components/ProjectsSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
-
+import AchievementsSection from '../components/AchievementsSection';
 const Home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -16,6 +16,7 @@ const Home = () => {
       <SkillsSection />
       <ExperienceSection />
       <ProjectsSection />
+      <AchievementsSection/>
       <ContactSection />
       <Footer />
     </div>

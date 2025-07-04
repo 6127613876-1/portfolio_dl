@@ -97,9 +97,7 @@ const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="text-xl font-semibold text-gray-800">{project.title}</h3>
-                  <span className="text-xs bg-pink-200 text-pink-800 px-2 py-1 rounded-full">
-                    {project.category}
-                  </span>
+                  
                 </div>
 
                 <p className="text-base text-gray-700 mb-4 line-clamp-3">

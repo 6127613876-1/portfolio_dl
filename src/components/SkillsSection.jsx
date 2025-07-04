@@ -60,7 +60,7 @@ const SkillsSection = () => {
         </motion.div>
 
         {/* Skills Box with rose background */}
-        <div className="rounded-2xl shadow-xl bg-gradient-to-r bg-white p-10 ">
+        <div className="rounded-2xl shadow-xl bg-gradient-to-r bg-white/50 p-10 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
             {Object.entries(skills).map(([category, items]) => (
               <div key={category}>

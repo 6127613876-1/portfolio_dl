@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { User, Code } from 'lucide-react';
+import { User, Code, GraduationCap } from 'lucide-react';
 
 const AboutSection = () => {
   const stats = [
@@ -7,6 +7,19 @@ const AboutSection = () => {
     { label: "Years Experience", value: "2+" },
     { label: "Technologies", value: "20+" },
     { label: "Happy Clients", value: "20+" }
+  ];
+
+  const education = [
+    {
+      degree: "B.Tech in Information Technology",
+      institution: "Thiagarajar College of Engineering",
+      year: "2022 - 2026"
+    },
+    {
+      degree: "Higher Secondary Education",
+      institution: "CEOA Matriculation Higher Secondary School",
+      year: "2020 - 2022"
+    }
   ];
 
   return (
@@ -45,6 +58,30 @@ const AboutSection = () => {
             <p className="text-lg text-gray-700 leading-relaxed">
               I specialize in modern web technologies and user experience design. I believe in clean code and keeping up with the latest tech trends.
             </p>
+
+            {/* Education Section */}
+            <div className="mt-8">
+              <div className="flex items-center gap-3 mb-4">
+                <GraduationCap className="text-pink-500" size={24} />
+                <h3 className="text-xl font-semibold text-gray-900">Education</h3>
+              </div>
+              <ul className="space-y-4 pl-2">
+                {education.map((edu, index) => (
+                  <motion.li
+                    key={index}
+                    initial={{ opacity: 0, y: 10 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                    className="border-l-2 border-pink-300 pl-4"
+                  >
+                    <p className="text-md font-semibold text-gray-800">{edu.degree}</p>
+                    <p className="text-sm text-gray-600">{edu.institution}</p>
+                    <p className="text-sm text-gray-500">{edu.year}</p>
+                  </motion.li>
+                ))}
+              </ul>
+            </div>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
               {stats.map((stat, index) => (

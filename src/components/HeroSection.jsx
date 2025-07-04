@@ -49,7 +49,7 @@
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-                className="bg-gradient-to-r from-pink-500 to-red-400 text-white px-8 py-3 rounded-full font-medium shadow-md hover:opacity-90 transition"
+                className="bg-gradient-to-r from-pink-500 to-red-400 cursor-pointer text-white px-8 py-3 rounded-full font-medium shadow-md hover:opacity-90 transition"
               >
                 View My Work
               </motion.button>

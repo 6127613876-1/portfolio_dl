@@ -1,47 +1,56 @@
 const projects = [
   {
     id: "1",
-    title: "E-Commerce Platform",
+    title: " Decentrailzed crowdfunding",
     description:
-      "A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      " A decentralized crowdfunding platform enabling transparent and secure fundraising through smart contracts.Streamlined campaign creation processes, empowering users with ownership and real-time transaction visibility",
+    image: "/EL/Intro.png",
+    technologies: ["React", "Node.js", "Tailwindcss", "Thirdweb",],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",
-    category: "Web Development"
+    category: "Full Stack Development"
   },
   {
     id: "2",
-    title: "Task Management App",
+    title: " AI-Powered Course Learning System",
     description:
-      "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-    technologies: ["Vue.js", "Firebase", "Vuetify"],
+      "Developed a YouTube-based learning platform with personalized course paths and video recommendations using Gemini Pro.",
+    image: "/EL/Intro.png",
+    technologies: ["React.js", "Firebase","Gemini Pro","Youtube API","Flask"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",
-    category: "Web Development"
+    category: "AI/ML"
   },
   {
     id: "3",
-    title: "Mobile Weather App",
+    title: " OTT Platform",
     description:
-      "A cross-platform mobile application providing detailed weather forecasts with beautiful animations and location-based services.",
+      "An OTT platform featuring seamless video streaming, user authentication, and personalized content browsing experience.",
     image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
-    technologies: ["React Native", "TypeScript", "Weather API"],
+    technologies: ["React.js", "Firebase", "TailwindcSS"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",
-    category: "Mobile Development"
+    category: "Full Stack Development"
   },
   {
     id: "4",
-    title: "AI Chat Bot",
-    description:
-      "An intelligent chatbot powered by machine learning algorithms, capable of natural language processing and contextual responses.",
-    image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=600&fit=crop",
+    title: " Fake News Detection",
+    description:"Developed an intelligent system to detect fake news by integrating web scraping, machine learning models",
+    image: "/Fake/Fake.png",
     technologies: ["Python", "TensorFlow", "Flask", "NLP"],
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example",
     category: "AI/ML"
+  },
+  {
+    id: "5",
+    title: "SHA512 Web Tool – Client-Side Secure Hash Generator",
+    description:"Built a lightweight, client-side web application to generate SHA-512 hashes from user input text or uploaded files, ensuring complete privacy.",
+    image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=600&fit=crop",
+    technologies: ["Python", "TensorFlow", "Flask", "NLP"],
+    liveUrl: "https://example.com",
+    githubUrl: "https://github.com/example",
+    category: "Web Development"
   }
 ];
 

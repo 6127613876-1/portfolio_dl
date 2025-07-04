@@ -118,7 +118,7 @@ const ContactSection = () => {
                   type="text"
                   placeholder="Your name"
                   {...register('name', { required: 'Name is required' })}
-                  className="w-full px-5 py-3 outline-none border border-pink-50 rounded-lg text-base focus:ring-2 focus:ring-pink-200"
+                  className="w-full px-5 py-3 outline-none border border-pink-50 rounded-lg text-black focus:ring-2 focus:ring-pink-200"
                 />
                 {errors.name && <p className="text-sm text-red-500 mt-1">{errors.name.message}</p>}
               </div>
@@ -135,7 +135,7 @@ const ContactSection = () => {
                       message: 'Invalid email format',
                     },
                   })}
-                  className="w-full px-5 py-3 outline-none border border-pink-50 rounded-lg text-base focus:ring-2 focus:ring-pink-200"
+                  className="w-full px-5 py-3 outline-none border border-pink-50 rounded-lg text-black focus:ring-2 focus:ring-pink-200"
                 />
                 {errors.email && <p className="text-sm text-red-500 mt-1">{errors.email.message}</p>}
               </div>
@@ -146,7 +146,7 @@ const ContactSection = () => {
                   rows="6"
                   placeholder="Tell me about your project or just say hello!"
                   {...register('message', { required: 'Message is required' })}
-                  className="w-full px-5 py-3 outline-none border border-pink-50 rounded-lg text-base focus:ring-2 focus:ring-pink-200 resize-none"
+                  className="w-full px-5 py-3 outline-none border border-pink-50 rounded-lg text-black focus:ring-2 focus:ring-pink-200 resize-none"
                 />
                 {errors.message && <p className="text-sm text-red-500 mt-1">{errors.message.message}</p>}
               </div>
@@ -156,7 +156,7 @@ const ContactSection = () => {
                 disabled={isSubmitting}
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
-                className="w-full bg-gradient-to-r outline-none from-pink-500 to-red-400 text-white py-3 rounded-lg font-semibold text-lg hover:opacity-90 transition disabled:opacity-50"
+                className="w-full bg-gradient-to-r cursor-pointer outline-none from-pink-500 to-red-400 text-white py-3 rounded-lg font-semibold text-lg hover:opacity-90 transition disabled:opacity-50"
               >
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </motion.button>
