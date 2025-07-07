@@ -28,8 +28,8 @@ const projects = [
       "An OTT platform featuring seamless video streaming, user authentication, and personalized content browsing experience.",
     image: "/OTT/movie.png",
     technologies: ["React.js", "Firebase", "TailwindcSS"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example",
+    liveUrl: "https://gflix.gokulcb.com/",
+    githubUrl: "https://github.com/6127613876-1/Gflix",
     category: "Full Stack Development"
   },
   {
