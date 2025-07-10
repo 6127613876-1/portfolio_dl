@@ -3,10 +3,10 @@ import { User, Code, GraduationCap } from 'lucide-react';
 
 const AboutSection = () => {
   const stats = [
-    { label: "Projects Completed", value: "10+" },
-    { label: "Years Experience", value: "2+" },
+    { label: "Internships", value: "3" },
+    { label: "Projects", value: "8" },
     { label: "Technologies", value: "10+" },
-    { label: "Happy Clients", value: "20+" }
+    { label: "Hackathons", value: "5" }
   ];
 
   const education = [
