@@ -13,7 +13,7 @@ const achievements = [
     description: "Built an AI-integrated personalized learning system.",
   },
   {
-    title: "Winner - Festember’25",
+    title: "Winner - Festember’23",
     subtitle: "National Institute of Technology, Tiruchirappalli",
     description: "Gaming competition winner.",
   },
