@@ -1,15 +1,15 @@
 const projects = [
-  // {
-  //   id: "1",
-  //   title: " Decentrailzed crowdfunding",
-  //   description:
-  //     " A decentralized crowdfunding platform enabling transparent and secure fundraising through smart contracts.Streamlined campaign creation processes, empowering users with ownership and real-time transaction visibility",
-  //   image: "/EL/Intro.png",
-  //   technologies: ["React", "Node.js", "Tailwindcss", "Thirdweb",],
-  //   liveUrl: "https://example.com",
-  //   githubUrl: "https://github.com/example",
-  //   category: "Full Stack Development"
-  // },
+  {
+    id: "1",
+    title: " Decentrailzed crowdfunding",
+    description:
+      " A decentralized crowdfunding platform enabling transparent and secure fundraising through smart contracts.Streamlined campaign creation processes, empowering users with ownership and real-time transaction visibility",
+    image: "/Crowd Chain/intro.png",
+    technologies: ["React.js", "Node.js", "Tailwindcss", "Thirdweb",],
+    liveUrl: "https://crowdchain.gokulcb.com/",
+    githubUrl: "https://github.com/6127613876-1/Crowdchain",
+    category: "Full Stack Development"
+  },
   {
     id: "2",
     title: " AI-Powered Course Learning System",
@@ -46,10 +46,10 @@ const projects = [
     id: "5",
     title: "SHA512 Web Tool – Client-Side Secure Hash Generator",
     description:"Built a lightweight, client-side web application to generate SHA-512 hashes from user input text or uploaded files, ensuring complete privacy.",
-    image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=600&fit=crop",
-    technologies: ["Python", "TensorFlow", "Flask", "NLP"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/example",
+    image: "/SHA 512/intro.png",
+    technologies: ["React.js", "Web Crypto API", "CryptoJS", "FileReader API"],
+    liveUrl: "https://sha512.gokulcb.com/",
+    githubUrl: "https://github.com/6127613876-1/sha-512",
     category: "Web Development"
   },
   {
