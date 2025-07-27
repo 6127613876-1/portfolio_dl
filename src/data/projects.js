@@ -19,7 +19,7 @@ const projects = [
     technologies: ["React.js", "Firebase","Gemini Pro","Youtube API","Flask"],
     liveUrl: "https://www.e-learning.gokulcb.com/",
     githubUrl: "https://github.com/6127613876-1/E-learning",
-    category: "Full Stack Development"
+    category: "AI/ML"
   },
   {
     id: "3",
